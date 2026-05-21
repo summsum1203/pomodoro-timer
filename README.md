@@ -44,4 +44,49 @@ State‑based logic with clean, reusable functions.
 ---
 
 ## 📂 Project Structure
+pomoedoro-timer/
+-----index.html
+-----style.css
+-----script.js
+-----sounds/
+--------------ding.mp3
 
+
+---
+
+## 📸 Live Demo  
+🔗 **GitHub Pages:** _[Add your link here once deployed]_
+
+---
+
+## 🧩 How It Works
+
+1. Set your preferred durations (optional).  
+2. Click **Start** to begin a work session.  
+3. When the timer ends, a sound plays and the next session begins automatically.  
+4. After 4 work sessions, a long break starts.  
+5. Use **Pause**, **Resume**, or **Reset** anytime.
+
+---
+
+## 🧪 Future Enhancements (Optional)
+
+- Dark mode  
+- Progress ring animation  
+- Statistics dashboard  
+- LocalStorage to save settings  
+- Themes / color customization  
+
+---
+
+## 📜 License  
+This project is open‑source under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgments  
+Inspired by the Pomodoro Technique and UI patterns from:  
+- [time.fyi](https://time.fyi)  
+- [Pomofocus](https://pomofocus.io)
+
+Built with ❤️ by Summer Davis.
