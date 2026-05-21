@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Pomodoro Timer</h1>
+
+    <div id="timer-display" aria-live="polite">25:00</div>
+
+    <section class="controls">
+      <button id="start" aria-label="Start timer">Start</button>
+      <button id="pause" aria-label="Pause timer">Pause</button>
+      <button id="resume" aria-label="Resume timer">Resume</button>
+      <button id="reset" aria-label="Reset timer">Reset</button>
+    </section>
+
+    <section class="config">
+      <h2>Timer Settings</h2>
+
+      <label>
+        Work (minutes):
+        <input type="number" id="work-input" value="25" min="1">
+      </label>
+
+      <label>
+        Short Break (minutes):
+        <input type="number" id="short-input" value="5" min="1">
+      </label>
+
+      <label>
+        Long Break (minutes):
+        <input type="number" id="long-input" value="15" min="1">
+      </label>
+    </section>
+
+    <section class="session-info">
+      <p>Current Session: <span id="session-type">Work</span></p>
+      <p>Completed Work Sessions: <span id="completed">0</span></p>
+    </section>
+  </main>
+
+  <audio id="sound" src="sounds/ding.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
