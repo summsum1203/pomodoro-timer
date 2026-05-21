@@ -1,4 +1,13 @@
 # Pomodoro Timer ⏱️  
+
+## 📛 Badges
+
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Made With](https://img.shields.io/badge/Made%20With-HTML%20%7C%20CSS%20%7C%20JS-blue)
+![Roadmap.sh](https://img.shields.io/badge/Roadmap.sh-Project-orange)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-purple)
+
 A clean, accessible, and customizable Pomodoro Timer built with **HTML, CSS, and JavaScript** as part of the [roadmap.sh](https://roadmap.sh/projects/pomodoro-timer) Frontend Projects.
 
 This application helps users stay productive using the Pomodoro Technique — alternating focused work sessions with short and long breaks.
